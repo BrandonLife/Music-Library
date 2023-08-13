@@ -1,3 +1,4 @@
+
 const API_URL = `https://itunes.apple.com/search?term=`
 
 const fetchSearch = async (searchTerm) => {

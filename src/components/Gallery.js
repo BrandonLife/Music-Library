@@ -1,7 +1,7 @@
 import GalleryItem from "./GalleryItem"
+import React from "react"
 const Gallery = (props) => {
-  const data = props.data.result.read()
-  console.log(data)
+  let data = props.data.result.read()
 
   const display = data.map((item, index) => {
       return (
