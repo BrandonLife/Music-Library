@@ -1,11 +1,11 @@
-import { useEffect, useState, Suspense } from 'react'
+import {useEffect, useState, Suspense } from 'react'
 import React from 'react'
-import Gallery from './components/Gallery'
+
 import SearchBar from './components/SearchBar'
 import { createResource as fetchData } from './helper'
 import Spinner from './Spinner'
-
-
+// const Gallery = React.lazy(()=> import('./components/Gallery'))
+import Gallery from './components/Gallery'
 function App(){
     let [searchTerm, setSearch] = useState('')
     let [message, setMessage] = useState('Search for Music!')
