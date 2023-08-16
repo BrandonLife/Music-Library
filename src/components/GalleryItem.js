@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, Link } from 'react'
+
 
 function GalleryItem(props) {
     let [view, setView] = useState(false)
